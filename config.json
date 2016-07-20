@@ -1,0 +1,31 @@
+{
+    "twitter": {
+        "twitterToken": "",
+        "twitterConsumerKey": "",
+        "twitterTokenSecret": "",
+        "twitterConsumerSecret": ""
+    },
+    "tweetTo": "@NEToficial,@NETatende",
+    "internetSpeed": "30",
+    "tweetThresholds": {
+        "5": [
+            "Que vergonha em {tweetTo} estou pagando por {internetSpeed}Mb/s mas só estou recebendo {downloadResult} Mb/s?!? Vocês acham isso justo??"
+        ],
+        "10": [
+            "Oi! {tweetTo} R$120/mês por {internetSpeed}Mb/s e eu só estou conseguindo {downloadResult}Mb/s? Vocês acham isso justo???"
+        ],
+        "15": [
+            "Ei {tweetTo} contrato o plano de {internetSpeed}Mb/s e recebo {downloadResult}Mb/s que tal diminuir minha conta pela metade tb?"
+        ],
+        "20": [
+            "{tweetTo} acho que {downloadResult}Mb/s é melhor que nada, mas vocês acham vale os R$120/mês do plano de {internetSpeed}Mb/s?"
+        ]
+    },
+    "log": {
+        "type": "csv",
+        "files": {
+            "ping": "logPing.csv",
+            "speed": "logVelocidade.csv"
+        }
+    }
+}
